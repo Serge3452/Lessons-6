@@ -1,36 +1,41 @@
-//Задание - Урок 5
+// Домашнее задание 6
 
-// Задание 1
-let a=1;
- while(a<=50) {
-   console.log(a);
-    a++;
- }  
+//let a=5
+//let b = +prompt("Введите число")
+// //let x
+// let b=null
 
-//for (let i=1; i<=50; i++) {
-//    console.log(i);
+// switch (true) {
+//      case (a == b):
+//      alert ("Да");
+//     break;
+//     case (a != b): 
+//     alert ("Нет");
+//     break;
+//     default:
+//     alert ("не сработало");
+//     break;
+
 //}
 
-// Задание 2
-for (let a=50; a>=25; --a){
-    console.log(a);
+let b = +prompt("Введите число")
+    switch (b) {
+alert ( 1 || 2 || 3 ||): " Зима"
+alert ( 4 || 5 || 6 || " Весна")
+alert ( 7 || 8 || 9 || " Лето")
+alert ( 10 || 11 || 12 || " Осень")
 }
 
-// Задание 3
+// alert ( "zvzvzvzv")
 
-for (let a=2500; a<=3000; a++){
-    if ( a%2==0) {
-        console.log(a);
-    }
-}
-// Урок 5 из GitHub
+// Урок 6
 
-//let i= 0;
-//while (i<=10) {
-//    if(i !=0){
-//        console.log(i);}
-//    i+=2;
-//}
+// let i= 0;
+// while (i<=10) {
+// if(i !=0){
+// console.log(i);}
+// i+=2;
+// }
 
 //let a=0
 //console.log(++a);
@@ -38,28 +43,103 @@ for (let a=2500; a<=3000; a++){
 //let a=2;
 //console.log(--a);
 
-// let i=0
-// do {
-//     console.log(i);
-//     i++
-// } while(i>10)
 
-// for (let i = 0; i < 10 ; i++) {
-//     console.log(i);
+// let x=1
+// switch (x){
+// case Значение 1
+// ....
+// break
+
+// case Значение 2
+// ...
+// break
+
+// default:
+
 // }
 
-// let s=0;
-// for(;;){
-//     console.log(s++);
-//     if (s>15) 
-//       break
+// let a = 5
+// switch (a) {
+// case 5:
+// alert ("1")
+ 
+// case 10:
+// alert ("2")
+ 
+ 
+// case 15:
+// alert ("3")
+ 
+ 
+// default:
+// alert ("4");
+ 
+//}
+
+// let a = "1";
+// let b = 0;
+// console.log(typeof a);
+// switch (+a) {
+// case b+1:
+// alert ("1")
+// break; 
+ 
+// default:
+// alert ("4");
+ 
 // }
 
-// let s=0;
-// for(;;){
-//     console.log(s++);
-//     if (s>15) 
-//       break
-// }
-// continue;
+// let a=122
+// switch (a) {
+// case 12:
+// alert ("1")
+// break;
 
+// case 5:
+// case 10:
+// alert ( " 2")
+// alert ( "3")
+// break;
+ 
+// default:
+// alert ( "4")
+ 
+// }
+
+// let arg = prompt ( "Число")
+// switch (arg) {
+// case "0":
+// case "1":
+// alert ( " Один ли ноль")
+// break;
+// case "2":
+// alert ( "2" )
+// case 3:
+// alert( "3")
+
+// }
+
+// оператор двойного слияния ??
+// null undefined
+
+// a ?? b
+
+// let result = a !==null && a!== undefined ? a:b
+
+// let user = 1
+// alert (user ?? "Аноним")
+
+// let fierstname = null
+// let lastName = null
+// let nickName = " Timur"
+
+// alert ( fierstname ?? lastName?? nickName ?? " Aninim")
+
+// let fierstname = null
+// let lastName = null
+// let nickName = " Timur"
+
+// alert ( fierstname || lastName || nickName || " Aninim")
+
+// || возвращает первое истинное значение
+// ?? возвращает первое определенное значение
