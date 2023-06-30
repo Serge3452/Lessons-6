@@ -1,30 +1,38 @@
 // Домашнее задание 6
 
-//let a=5
-//let b = +prompt("Введите число")
-// //let x
-// let b=null
+// Домашнее задание 6 -1
 
-// switch (true) {
-//      case (a == b):
-//      alert ("Да");
-//     break;
-//     case (a != b): 
-//     alert ("Нет");
-//     break;
-//     default:
-//     alert ("не сработало");
-//     break;
-
-//}
-
+let a=5
 let b = +prompt("Введите число")
-    switch (b) {
-alert ( 1 || 2 || 3 ||): " Зима"
-alert ( 4 || 5 || 6 || " Весна")
-alert ( 7 || 8 || 9 || " Лето")
-alert ( 10 || 11 || 12 || " Осень")
+
+
+switch (true) {
+       case (!Number.isFinite(b)) :
+       alert ("Не сработало");
+       break;
+       case ( a==b ): 
+       alert ("Да");
+       break;
+    //    case (a !== b): 
+    //    alert ("Нет");
+    //    break;
+
+      default:
+      alert ("Нет");
+      break;
+
 }
+
+
+
+
+// let b = +prompt("Введите число")
+//     switch (b) {
+// alert ( 1 || 2 || 3 ||): " Зима"
+// alert ( 4 || 5 || 6 || " Весна")
+// alert ( 7 || 8 || 9 || " Лето")
+// alert ( 10 || 11 || 12 || " Осень")
+// }
 
 // alert ( "zvzvzvzv")
 
