@@ -7,32 +7,53 @@ let b = +prompt("Введите число")
 
 
 switch (true) {
-       case (!Number.isFinite(b)) :
-       alert ("Не сработало");
-       break;
-       case ( a==b ): 
-       alert ("Да");
-       break;
-    //    case (a !== b): 
-    //    alert ("Нет");
-    //    break;
+        case (!Number.isFinite(b)) :
+          alert ("Не сработало");
+        break;
 
-      default:
-      alert ("Нет");
-      break;
+        case ( a==b ): 
+         alert ("Да");
+         break;
+             case (a !== b): 
+              alert ("Нет");
+              break;
+
+  default:
+    alert ("Нет");
+    break;
 
 }
 
 
 
 
-// let b = +prompt("Введите число")
-//     switch (b) {
-// alert ( 1 || 2 || 3 ||): " Зима"
-// alert ( 4 || 5 || 6 || " Весна")
-// alert ( 7 || 8 || 9 || " Лето")
-// alert ( 10 || 11 || 12 || " Осень")
-// }
+let s = +prompt("Введите число")
+     switch (s) {
+      case 1:
+      case 2:
+      case 3:
+  alert ( "Зима");
+      break;
+
+      case  4:
+      case  5:
+      case  6:
+  alert (" Весна")
+      break;
+
+    case  7:
+    case  8:
+    case  9:
+  alert ("Лето");
+    break;
+
+    case 10:
+    case 11:
+    case 12 :
+  alert ( "Осень")
+   break;
+
+ }
 
 // alert ( "zvzvzvzv")
 
