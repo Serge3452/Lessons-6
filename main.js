@@ -25,7 +25,7 @@ switch (true) {
 }
 
 
-
+// Задание 6 -2
 
 let s = +prompt("Введите число")
      switch (s) {
@@ -54,6 +54,16 @@ let s = +prompt("Введите число")
    break;
 
  }
+
+
+// Задание 6 - 3
+
+let x= 1
+let y = 2
+let z = null
+alert ( x ?? y ?? z ??  "  Оператор нулевого слияния") ;
+
+
 
 // alert ( "zvzvzvzv")
 
